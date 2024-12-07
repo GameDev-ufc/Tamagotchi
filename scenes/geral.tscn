@@ -1,0 +1,55 @@
+[gd_scene load_steps=9 format=3 uid="uid://ujt3l47r43xb"]
+
+[ext_resource type="Script" path="res://scripts/geral.gd" id="1_5acd7"]
+[ext_resource type="Texture2D" uid="uid://douloaoypljd" path="res://assets/sprites/characters/gato/sprite_gato_idle.png" id="1_522ck"]
+[ext_resource type="Texture2D" uid="uid://dabrtcvemppaq" path="res://assets/sprites/ui/backgrounds/sprite_bg.png" id="2_gemfi"]
+[ext_resource type="Texture2D" uid="uid://ctn6fmfi4vxc7" path="res://assets/sprites/ui/backgrounds/sprite_bg_display.png" id="2_pc03t"]
+[ext_resource type="Texture2D" uid="uid://b4ijbiifwtxds" path="res://assets/sprites/resources/references/ref.png" id="3_6pgao"]
+[ext_resource type="Texture2D" uid="uid://xxprl8way60l" path="res://assets/sprites/resources/itens/sprite_tapete.png" id="3_70if6"]
+[ext_resource type="Texture2D" uid="uid://b281ehwwgpacn" path="res://assets/sprites/ui/buttons/sprite_button_pink.png" id="5_mlnv4"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tj0p5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_522ck")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="geral" type="Node2D"]
+script = ExtResource("1_5acd7")
+
+[node name="background" type="Sprite2D" parent="."]
+position = Vector2(355, 320)
+texture = ExtResource("2_gemfi")
+
+[node name="display" type="Sprite2D" parent="."]
+position = Vector2(355, 350)
+texture = ExtResource("2_pc03t")
+
+[node name="tapete" type="Sprite2D" parent="."]
+position = Vector2(365, 475)
+texture = ExtResource("3_70if6")
+
+[node name="gato" type="AnimatedSprite2D" parent="."]
+position = Vector2(385, 385)
+sprite_frames = SubResource("SpriteFrames_tj0p5")
+animation = &"idle"
+
+[node name="botao" type="TextureButton" parent="."]
+offset_left = 316.0
+offset_top = 567.0
+offset_right = 396.0
+offset_bottom = 614.0
+texture_normal = ExtResource("5_mlnv4")
+
+[node name="Ref" type="Sprite2D" parent="."]
+visible = false
+modulate = Color(1, 1, 1, 0.392157)
+position = Vector2(355, 320)
+texture = ExtResource("3_6pgao")
+
+[connection signal="pressed" from="botao" to="." method="_on_botao_pressed"]
