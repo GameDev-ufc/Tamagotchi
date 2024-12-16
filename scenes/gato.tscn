@@ -1,0 +1,184 @@
+[gd_scene load_steps=23 format=3 uid="uid://dd6ii2idn34nn"]
+
+[ext_resource type="Texture2D" uid="uid://63vwt8j5cp8h" path="res://assets/sprites/characters/gato/sprite_gato_come.png" id="1_6o374"]
+[ext_resource type="Texture2D" uid="uid://douloaoypljd" path="res://assets/sprites/characters/gato/sprite_gato_idle.png" id="2_jt85m"]
+[ext_resource type="Texture2D" uid="uid://b447ocy1bx8dg" path="res://assets/sprites/characters/gato/sprite_gato_miau.png" id="3_gckx7"]
+[ext_resource type="Texture2D" uid="uid://bqa3relvd683t" path="res://assets/sprites/characters/gato/sprite_gato_morre.png" id="4_rgu72"]
+[ext_resource type="AudioStream" uid="uid://bdymbdhhme283" path="res://assets/audio/sound_effects/gato_miado.mp3" id="5_wveno"]
+[ext_resource type="AudioStream" uid="uid://b2fsh5uhcurno" path="res://assets/audio/sound_effects/cat_trilling.mp3" id="6_vengi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dbqqe"]
+atlas = ExtResource("1_6o374")
+region = Rect2(0, 0, 355, 398)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8d1a7"]
+atlas = ExtResource("1_6o374")
+region = Rect2(355, 0, 355, 398)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_huqlv"]
+atlas = ExtResource("1_6o374")
+region = Rect2(710, 0, 355, 398)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dl2fo"]
+atlas = ExtResource("1_6o374")
+region = Rect2(1065, 0, 355, 398)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wrgbc"]
+atlas = ExtResource("1_6o374")
+region = Rect2(1420, 0, 355, 398)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a5w2u"]
+atlas = ExtResource("1_6o374")
+region = Rect2(1775, 0, 355, 398)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1fryn"]
+atlas = ExtResource("1_6o374")
+region = Rect2(2130, 0, 355, 398)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6bk41"]
+atlas = ExtResource("1_6o374")
+region = Rect2(2485, 0, 355, 398)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bqonk"]
+atlas = ExtResource("4_rgu72")
+region = Rect2(355, 0, 355, 398)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_phqsc"]
+atlas = ExtResource("4_rgu72")
+region = Rect2(0, 0, 355, 398)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yxgdk"]
+atlas = ExtResource("4_rgu72")
+region = Rect2(710, 0, 355, 398)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_whwey"]
+atlas = ExtResource("4_rgu72")
+region = Rect2(1065, 0, 355, 398)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t8vqg"]
+atlas = ExtResource("4_rgu72")
+region = Rect2(1420, 0, 355, 398)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4rxun"]
+atlas = ExtResource("4_rgu72")
+region = Rect2(1775, 0, 355, 398)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s1qc6"]
+atlas = ExtResource("4_rgu72")
+region = Rect2(2130, 0, 355, 398)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tj0p5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dbqqe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8d1a7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_huqlv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dl2fo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wrgbc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a5w2u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1fryn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6bk41")
+}],
+"loop": false,
+"name": &"comendo",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_jt85m")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_gckx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gckx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gckx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gckx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gckx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gckx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gckx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gckx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gckx7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gckx7")
+}],
+"loop": false,
+"name": &"miado",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bqonk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_phqsc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yxgdk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_whwey")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t8vqg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4rxun")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s1qc6")
+}],
+"loop": false,
+"name": &"morto",
+"speed": 5.0
+}]
+
+[node name="gato" type="AnimatedSprite2D"]
+position = Vector2(385, 385)
+sprite_frames = SubResource("SpriteFrames_tj0p5")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="miado_timer" type="Timer" parent="."]
+autostart = true
+
+[node name="audio_miado" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_wveno")
+
+[node name="cat_trilling" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_vengi")
