@@ -177,7 +177,6 @@ animations = [{
 
 [node name="geral" type="Node2D"]
 script = ExtResource("1_5acd7")
-tempo_miado = 2
 
 [node name="background" type="Sprite2D" parent="."]
 position = Vector2(355, 320)
