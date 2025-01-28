@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cq0alw65qgkyj"
-path="res://.godot/imported/sprite_box_dog.png-6d93297c390756b797aeef556b54b456.ctex"
+uid="uid://4nbyp3pqsog2"
+path="res://.godot/imported/sprite_cat_meow.png-2949e8c1dd35643a60b9588fdfd2b220.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/characters/cachorro/sprite_box_dog.png"
-dest_files=["res://.godot/imported/sprite_box_dog.png-6d93297c390756b797aeef556b54b456.ctex"]
+source_file="res://assets/sprites/characters/cat/sprite_cat_meow.png"
+dest_files=["res://.godot/imported/sprite_cat_meow.png-2949e8c1dd35643a60b9588fdfd2b220.ctex"]
 
 [params]
 

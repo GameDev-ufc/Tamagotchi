@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://beepl7es2wwql"
-path="res://.godot/imported/sprite_box_parrot.png-f74998eaa12d02c0f2db7e513c73ebaf.ctex"
+uid="uid://cbmy3xiwplr6"
+path="res://.godot/imported/sprite_box_cat.png-0b149ca3746f087308236456382f3e1e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/characters/papagaio/sprite_box_parrot.png"
-dest_files=["res://.godot/imported/sprite_box_parrot.png-f74998eaa12d02c0f2db7e513c73ebaf.ctex"]
+source_file="res://assets/sprites/characters/cat/sprite_box_cat.png"
+dest_files=["res://.godot/imported/sprite_box_cat.png-0b149ca3746f087308236456382f3e1e.ctex"]
 
 [params]
 

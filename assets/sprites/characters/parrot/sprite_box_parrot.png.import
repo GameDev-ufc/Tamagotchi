@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dx6orawn6qud1"
-path="res://.godot/imported/sprite_box_hammister.png-ad1eea083d20be21c99056b7530932e4.ctex"
+uid="uid://beepl7es2wwql"
+path="res://.godot/imported/sprite_box_parrot.png-3f6148465e2261c2865afb96301602c6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/characters/hamister/sprite_box_hammister.png"
-dest_files=["res://.godot/imported/sprite_box_hammister.png-ad1eea083d20be21c99056b7530932e4.ctex"]
+source_file="res://assets/sprites/characters/parrot/sprite_box_parrot.png"
+dest_files=["res://.godot/imported/sprite_box_parrot.png-3f6148465e2261c2865afb96301602c6.ctex"]
 
 [params]
 

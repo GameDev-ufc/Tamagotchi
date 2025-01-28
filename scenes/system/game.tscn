@@ -1,0 +1,68 @@
+[gd_scene load_steps=10 format=3 uid="uid://ujt3l47r43xb"]
+
+[ext_resource type="Script" path="res://scripts/system/geral.gd" id="1_5ta0x"]
+[ext_resource type="PackedScene" uid="uid://bnf6jsaojc0vg" path="res://scenes/system/background.tscn" id="2_22s6y"]
+[ext_resource type="Texture2D" uid="uid://cmmqdo4jqu1hn" path="res://assets/sprites/resources/references/reference.png" id="3_obtmu"]
+[ext_resource type="PackedScene" uid="uid://57qyy6db7ybo" path="res://scenes/resource/button_template.tscn" id="4_a8i43"]
+[ext_resource type="Texture2D" uid="uid://msn81a3uypwx" path="res://assets/sprites/ui/buttons/sprite_button_green.png" id="5_71ags"]
+[ext_resource type="Texture2D" uid="uid://b281ehwwgpacn" path="res://assets/sprites/ui/buttons/sprite_button_pink.png" id="6_m2jbn"]
+[ext_resource type="Texture2D" uid="uid://dd3vx4gji6scf" path="res://assets/sprites/ui/buttons/sprite_button_white.png" id="7_8kl24"]
+[ext_resource type="Texture2D" uid="uid://cy0y7w0g2kp6g" path="res://assets/sprites/ui/buttons/sprite_button_left.png" id="8_p2s0x"]
+[ext_resource type="Texture2D" uid="uid://bpe00ejhvn8h5" path="res://assets/sprites/ui/buttons/sprite_button_right.png" id="9_s4jbj"]
+
+[node name="game" type="CanvasLayer"]
+script = ExtResource("1_5ta0x")
+
+[node name="background" parent="." instance=ExtResource("2_22s6y")]
+
+[node name="Reference" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.392157)
+texture = ExtResource("3_obtmu")
+centered = false
+
+[node name="buttons" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="button_green" parent="buttons" instance=ExtResource("4_a8i43")]
+offset_left = 228.0
+offset_top = 566.0
+offset_right = 272.0
+offset_bottom = 611.0
+icon = ExtResource("5_71ags")
+
+[node name="button_pink" parent="buttons" instance=ExtResource("4_a8i43")]
+layout_mode = 0
+offset_left = 314.0
+offset_top = 568.0
+offset_right = 394.0
+offset_bottom = 615.0
+icon = ExtResource("6_m2jbn")
+
+[node name="button_white" parent="buttons" instance=ExtResource("4_a8i43")]
+layout_mode = 0
+offset_left = 436.0
+offset_top = 563.0
+offset_right = 483.0
+offset_bottom = 608.0
+icon = ExtResource("7_8kl24")
+
+[node name="button_left" parent="buttons" instance=ExtResource("4_a8i43")]
+layout_mode = 0
+offset_left = 97.0
+offset_top = 313.0
+offset_right = 154.0
+offset_bottom = 424.0
+icon = ExtResource("8_p2s0x")
+
+[node name="button_right" parent="buttons" instance=ExtResource("4_a8i43")]
+layout_mode = 0
+offset_left = 559.0
+offset_top = 313.0
+offset_right = 616.0
+offset_bottom = 424.0
+icon = ExtResource("9_s4jbj")

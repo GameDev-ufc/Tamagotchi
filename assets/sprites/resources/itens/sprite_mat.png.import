@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cbmy3xiwplr6"
-path="res://.godot/imported/sprite_box_cat.png-d759eca087aa71e4fc53be457457e88d.ctex"
+uid="uid://df5ml1ry2ungj"
+path="res://.godot/imported/sprite_mat.png-1d85c051e21d3d750a971023fb8d6b0e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/characters/gato/sprite_box_cat.png"
-dest_files=["res://.godot/imported/sprite_box_cat.png-d759eca087aa71e4fc53be457457e88d.ctex"]
+source_file="res://assets/sprites/resources/itens/sprite_mat.png"
+dest_files=["res://.godot/imported/sprite_mat.png-1d85c051e21d3d750a971023fb8d6b0e.ctex"]
 
 [params]
 
