@@ -13,11 +13,12 @@ config_version=5
 config/name="Tamagotchi"
 run/main_scene="res://scenes/system/game.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://assets/sprites/ui/icons/cat.svg"
 
 [autoload]
 
-Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+GeralBgm="*res://scenes/resource/geral_bgm.tscn"
+GeralSfx="*res://scenes/resource/geral_sfx.tscn"
 
 [dialogic]
 
@@ -35,7 +36,7 @@ window/stretch/mode="canvas_items"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/dialogic/plugin.cfg", "res://addons/godot_super-wakatime/plugin.cfg")
+enabled=PackedStringArray()
 
 [file_customization]
 
